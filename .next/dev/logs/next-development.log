@@ -328,3 +328,7 @@
 {"timestamp":"03:39:07.912","source":"Server","level":"ERROR","message":"[browser] \"\\u001b[31mUncaught Error: ./src/app/layout.js:15:8\\nError: Expected ';', '}' or <eof>\\n  13 |   weight: [\\\"400\\\"],\\n  14 | });\\n> 15 | useRef useEffect useActionState useState\\n     |        ^^^^^^^^^\\n  16 | const barlowCondensed = Barlow_Condensed({\\n  17 |   variable: \\\"--font-barlow-condensed\\\",\\n  18 |   subsets: [\\\"latin\\\"],\\n\\nParsing ecmascript source code failed\\n\\n\\u001b[39m\""}
 {"timestamp":"03:54:56.133","source":"Server","level":"LOG","message":"✓ Compiled in 47ms"}
 {"timestamp":"03:54:57.301","source":"Server","level":"LOG","message":"✓ Compiled in 5ms"}
+{"timestamp":"04:14:51.713","source":"Server","level":"LOG","message":"✓ Compiled in 27ms"}
+{"timestamp":"04:15:00.518","source":"Server","level":"LOG","message":"✓ Compiled in 20ms"}
+{"timestamp":"04:15:01.549","source":"Server","level":"LOG","message":"✓ Compiled in 14ms"}
+{"timestamp":"04:15:10.472","source":"Server","level":"LOG","message":"✓ Compiled in 13ms"}

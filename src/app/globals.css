@@ -2,7 +2,7 @@
 
 :root {
   --card-background: #fff7ed;
-  --background: #1ea054;
+  --background: #b08974;
   --white: #ffffff;
 
   --text-primary: #451a03;
@@ -35,7 +35,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
 /***************  Layout  ************/
 
 section {
@@ -54,21 +53,46 @@ section {
   }
 }
 
-  button {
-    display: flex;
-    justify-content: center;
-    padding: 0.75rem;
-    border: 1px solid var(--button-text);
+/********** Formularen *********/
+
+  input,
+  textarea,
+  select {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--input-border);
     border-radius: 0.5rem;
-    background-color: var(--text-label);
-    color: var(--button-text);
+    background-color: white;
+    color: var(--text-primary);
     font: inherit;
-    font-weight: 600;
-    cursor: pointer;
 
-    &:hover {
-      background-color: var(--background);
+    &::placeholder {
+      color: var(--placeholder);
     }
-
-
   }
+
+  textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+
+  select {
+    color: var(--text-label);
+  }
+
+button {
+  display: flex;
+  justify-content: center;
+  padding: 0.75rem;
+  border: 1px solid var(--button-text);
+  border-radius: 0.5rem;
+  background-color: var(--text-label);
+  color: var(--button-text);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--background);
+  }
+}
