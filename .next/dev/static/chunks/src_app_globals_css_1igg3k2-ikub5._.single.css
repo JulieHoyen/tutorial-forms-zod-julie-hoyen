@@ -280,7 +280,7 @@
 
 :root {
   --card-background: #fff7ed;
-  --background: #b08974;
+  --background: #f18d45b4;
   --white: #fff;
   --text-primary: #451a03;
   --text-label: #b45309;
@@ -312,6 +312,29 @@ section article {
   margin: 0 auto;
   padding: 1.5rem;
   box-shadow: 0 1px 2px #0000000d;
+}
+
+input, textarea, select {
+  border: 1px solid var(--input-border);
+  width: 100%;
+  color: var(--text-primary);
+  font: inherit;
+  background-color: #fff;
+  border-radius: .5rem;
+  padding: .75rem 1rem;
+}
+
+:is(input, textarea, select)::placeholder {
+  color: var(--placeholder);
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+select {
+  color: var(--text-label);
 }
 
 button {
