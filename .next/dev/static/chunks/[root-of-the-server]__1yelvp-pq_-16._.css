@@ -434,6 +434,29 @@ section article {
   box-shadow: 0 1px 2px #0000000d;
 }
 
+input, textarea, select {
+  border: 1px solid var(--input-border);
+  width: 100%;
+  color: var(--text-primary);
+  font: inherit;
+  background-color: #fff;
+  border-radius: .5rem;
+  padding: .75rem 1rem;
+}
+
+:is(input, textarea, select)::placeholder {
+  color: var(--placeholder);
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+select {
+  color: var(--text-label);
+}
+
 button {
   border: 1px solid var(--button-text);
   background-color: var(--text-label);
